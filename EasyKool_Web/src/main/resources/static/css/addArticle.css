@@ -1,0 +1,25 @@
+.InputFormArticl label{
+    font-size:  20px;
+    font-weight: 100px;
+    color: rgb(245, 242, 238);
+}
+.InputFormArticl input, select{
+    margin-bottom: 20px;
+}
+.bgBody{
+    background: url('../images/backgd1.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.form-con{
+    border-radius:20px;
+    background-color:rgba(105, 112, 121, 0.5);
+    border:0px solid black;
+    padding:20px 60px;
+    margin-top: 10px;
+    -webkit-box-shadow: 3px 5px 38px -2px rgba(162, 202, 214, 0.75);
+    -moz-box-shadow: 3px 5px 38px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 5px 38px -2px rgba(0,0,0,0.75);
+    width: 500px;
+}

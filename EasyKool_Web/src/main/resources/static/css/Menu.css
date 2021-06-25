@@ -1,0 +1,128 @@
+.bgBody{
+    background: url('../images/backgd8.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.menu{
+    border: 2px solid rgb(0, 0, 0);
+    width: 297px;
+    height: 380px;
+    box-sizing: 0 5px 25px rgba(0,0,0,0.1) ;
+    border-radius: 15px;
+    transition: 0.5s;
+    position: absolute;
+    left: 80px;
+    top: 26px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 234);
+    visibility: hidden;
+    z-index: 100;
+}
+
+.active{
+    visibility: visible;
+}
+
+.menu::before
+{
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 18px;
+    width: 14px;
+    height: 14px;
+    background: rgb(255, 255, 234);
+    transform: rotate(45deg);
+    border-left: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+
+.menu ul {
+    position: absolute;
+    overflow:hidden;
+    overflow-y:scroll;
+    height: 300px;
+    width: 95%;
+}
+
+.MenuItem{
+    display: flex;
+    align-items: center;
+    width: 290px;
+}
+
+
+.MenuItem input{
+    position: absolute;
+    right: 5px;
+}
+.imgItem{
+    border: solid 1px Lightgray;
+    justify-content: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    width: 90px;
+}
+
+.item {
+    border: solid 1px Lightgray;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.containerMenu {
+    min-height: 250px;
+    width: 100%;
+    border-right: rgb(240, 241, 226) solid 4px;
+    border-radius: 5px;
+    background-color: #f5f5cf9a;
+
+}
+.containerTitle {
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    border-right: rgb(255, 255, 255) solid 4px;
+    border-bottom: rgb(255, 255, 255) solid 4px;
+    border-radius: 5px;
+    background-color: #f7f7da9a;
+    color: rgb(56, 50, 17);
+}
+
+.btnMenuValidate{
+    width: 200px;
+    margin-left: 40px;
+    color: white;
+    background-color: orange;
+    font-weight: 140px;
+    position: absolute;
+    top: 330px;
+    left: 10px;
+}
+
+.imgMenu{
+    width: 100%;
+    height:220px ;
+    padding-top: 18px;
+}
+
+.btnDayMenu{
+    border-radius: 18px;
+    width: 140px;
+    background-color: rgb(243, 205, 38);
+    outline-color: black;
+}
